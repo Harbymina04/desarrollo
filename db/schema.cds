@@ -1,5 +1,4 @@
 namespace db;
-
 entity TEMPLATES {
     key ID                : String;
         NAME              : String;
@@ -20,7 +19,7 @@ entity FIELDS {
 }
 
 entity PROCESS_OR_ENTITY {
-  key ID : String;
+  key ID : UUID;
   NAME : String;
   DESCRIPTION: String
 }
